@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		EDEFC33E2B1FBC7900DC3486 /* GroceryApp_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC33D2B1FBC7900DC3486 /* GroceryApp_SwiftDataApp.swift */; };
 		EDEFC3402B1FBC7900DC3486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC33F2B1FBC7900DC3486 /* ContentView.swift */; };
-		EDEFC3422B1FBC7900DC3486 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC3412B1FBC7900DC3486 /* Item.swift */; };
 		EDEFC3442B1FBC7A00DC3486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC3432B1FBC7A00DC3486 /* Assets.xcassets */; };
 		EDEFC3472B1FBC7A00DC3486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC3462B1FBC7A00DC3486 /* Preview Assets.xcassets */; };
 		EDEFC3512B1FBC7A00DC3486 /* GroceryApp_SwiftDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC3502B1FBC7A00DC3486 /* GroceryApp_SwiftDataTests.swift */; };
 		EDEFC35B2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC35A2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITests.swift */; };
 		EDEFC35D2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC35C2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITestsLaunchTests.swift */; };
+		EDEFC36A2B1FBCFE00DC3486 /* GroceryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC3692B1FBCFE00DC3486 /* GroceryListItem.swift */; };
+		EDEFC36D2B1FD1D000DC3486 /* GetPhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC36C2B1FD1D000DC3486 /* GetPhotosResponse.swift */; };
+		EDEFC3702B1FEAB800DC3486 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC36F2B1FEAB800DC3486 /* PhotoManager.swift */; };
+		EDEFC3722B1FEB9100DC3486 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC3712B1FEB9100DC3486 /* AppConfig.plist */; };
+		EDEFC3762B1FEBC000DC3486 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC3752B1FEBC000DC3486 /* AppConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		EDEFC33A2B1FBC7900DC3486 /* GroceryApp_SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryApp_SwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEFC33D2B1FBC7900DC3486 /* GroceryApp_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryApp_SwiftDataApp.swift; sourceTree = "<group>"; };
 		EDEFC33F2B1FBC7900DC3486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EDEFC3412B1FBC7900DC3486 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EDEFC3432B1FBC7A00DC3486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEFC3462B1FBC7A00DC3486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDEFC34C2B1FBC7A00DC3486 /* GroceryApp_SwiftDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryApp_SwiftDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,11 @@
 		EDEFC3562B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryApp_SwiftDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEFC35A2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryApp_SwiftDataUITests.swift; sourceTree = "<group>"; };
 		EDEFC35C2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryApp_SwiftDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDEFC3692B1FBCFE00DC3486 /* GroceryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListItem.swift; sourceTree = "<group>"; };
+		EDEFC36C2B1FD1D000DC3486 /* GetPhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotosResponse.swift; sourceTree = "<group>"; };
+		EDEFC36F2B1FEAB800DC3486 /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		EDEFC3712B1FEB9100DC3486 /* AppConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		EDEFC3752B1FEBC000DC3486 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,13 @@
 		EDEFC33C2B1FBC7900DC3486 /* GroceryApp_SwiftData */ = {
 			isa = PBXGroup;
 			children = (
+				EDEFC36E2B1FEAA100DC3486 /* Managers */,
+				EDEFC36B2B1FD1A900DC3486 /* Models */,
 				EDEFC33D2B1FBC7900DC3486 /* GroceryApp_SwiftDataApp.swift */,
 				EDEFC33F2B1FBC7900DC3486 /* ContentView.swift */,
-				EDEFC3412B1FBC7900DC3486 /* Item.swift */,
 				EDEFC3432B1FBC7A00DC3486 /* Assets.xcassets */,
 				EDEFC3452B1FBC7A00DC3486 /* Preview Content */,
+				EDEFC3712B1FEB9100DC3486 /* AppConfig.plist */,
 			);
 			path = GroceryApp_SwiftData;
 			sourceTree = "<group>";
@@ -128,6 +138,32 @@
 				EDEFC35C2B1FBC7A00DC3486 /* GroceryApp_SwiftDataUITestsLaunchTests.swift */,
 			);
 			path = GroceryApp_SwiftDataUITests;
+			sourceTree = "<group>";
+		};
+		EDEFC36B2B1FD1A900DC3486 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFC3772B1FEC3E00DC3486 /* SwiftData */,
+				EDEFC36C2B1FD1D000DC3486 /* GetPhotosResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDEFC36E2B1FEAA100DC3486 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFC36F2B1FEAB800DC3486 /* PhotoManager.swift */,
+				EDEFC3752B1FEBC000DC3486 /* AppConfiguration.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EDEFC3772B1FEC3E00DC3486 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFC3692B1FBCFE00DC3486 /* GroceryListItem.swift */,
+			);
+			path = SwiftData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEFC3722B1FEB9100DC3486 /* AppConfig.plist in Resources */,
 				EDEFC3472B1FBC7A00DC3486 /* Preview Assets.xcassets in Resources */,
 				EDEFC3442B1FBC7A00DC3486 /* Assets.xcassets in Resources */,
 			);
@@ -260,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEFC3762B1FEBC000DC3486 /* AppConfiguration.swift in Sources */,
 				EDEFC3402B1FBC7900DC3486 /* ContentView.swift in Sources */,
-				EDEFC3422B1FBC7900DC3486 /* Item.swift in Sources */,
+				EDEFC36A2B1FBCFE00DC3486 /* GroceryListItem.swift in Sources */,
+				EDEFC36D2B1FD1D000DC3486 /* GetPhotosResponse.swift in Sources */,
+				EDEFC3702B1FEAB800DC3486 /* PhotoManager.swift in Sources */,
 				EDEFC33E2B1FBC7900DC3486 /* GroceryApp_SwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +474,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +504,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
